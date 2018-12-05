@@ -106,6 +106,10 @@ const AboutSub = styled.span`
 
 const AboutDesc = styled.p`
   ${tw('text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
+  a {
+    color: #e07628;
+    text-decoration: none;
+  }
 `;
 
 const ContactText = styled.p`
@@ -259,8 +263,8 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            理想的完美主义者，不追名不逐利，短期的理想就是完成<a href="https://github.com/zidoshare/Elise">有价值的开源项目</a>。
-            深入的学习各种感兴趣的东西，例如spring/redis/jvm等等。
+            理想的完美主义者，不追名不逐利，短期的理想就是完成<a target="_blank"  href="https://github.com/zidoshare/Elise">有价值的开源项目</a>(求一个star。
+            <br/>深入的学习各种感兴趣的东西，例如spring/redis/jvm等等。
             <br/>96年生，16年参加实习工作，17年毕业。
             <br/>从不满足于当一个普通的程序猿。
             <br/>虽然毛发还挺茂盛的，但是总是网上自嘲地中海。
@@ -295,8 +299,8 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:wuhongxu1208@gmail.com">Hi</a> or find me on github:{' '}
-            <a href="https://github.com/zidoshare">zidoshare</a> &{' '}
+            Say <a href="mailto:wuhongxu1208@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/zidoshare">github/zidoshare</a> &{' '}
             <a href="https://zido.site">zido的个人博客</a>
           </ContactText>
         </Inner>
