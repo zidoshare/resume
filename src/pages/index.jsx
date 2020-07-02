@@ -166,7 +166,7 @@ const Index = () => (
           </BigTitle>
           <Subtitle>
             我是一个普通的码农，一个理想的完美主义者，喜欢开源，喜欢技术，偶尔喜欢折腾一些奇奇怪怪的东西。 <br/> 
-            喜欢linux平台，喜欢java/go/js语言。伪全栈开发者。
+            喜欢linux平台，喜欢java/go/rust/js/c语言。伪全栈开发者。
           </Subtitle>
         </Hero>
       </Content>
@@ -188,18 +188,18 @@ const Index = () => (
               一个简单的，高度可扩展的，并且支持分布式的爬虫框架。
             </ProjectCard>
             <ProjectCard
-              title="xml-path"
-              link="https://github.com/zidoshare/xml-path"
+              title="coffee-spring-boot-builder"
+              link="https://github.com/zidoshare/coffee-spring-boot-builder"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              一个并不算完美的xpath解析器
+              spring boot 2.x的restful启动器，节省一杯咖啡的时间，更多的约定，更快的开发
             </ProjectCard>
             <ProjectCard
-              title="react-starter"
-              link="https://github.com/zidoshare/react-starter"
+              title="curly-succotash"
+              link="https://github.com/Programming-With-Love/curly-succotash"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              :gun: react脚手架，使用react16.x，webpack2.x，react-router v4构建
+              一个基于最新gatsby构建的简洁好看的静态博客
             </ProjectCard>
             <ProjectCard
               title="blog"
@@ -263,14 +263,10 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            理想的完美主义者，不追名不逐利，短期的理想就是完成<a target="_blank"  href="https://github.com/zidoshare/Elise">有价值的开源项目</a>(求一个star。
+            理想的完美主义者，不追名不逐利。
             <br/>深入的学习各种感兴趣的东西，例如spring/redis/jvm等等。
             <br/>96年生，16年参加实习工作，17年毕业。
             <br/>从不满足于当一个普通的程序猿。
-            <br/>虽然毛发还挺茂盛的，但是总是网上自嘲地中海。
-            <br/>喜欢二次元，但不认为自己属于二次元的圈子。
-            <br/>喜欢k歌虽然五音不全。
-            <br/>喜欢游戏，但是现在什么都玩不进去。
             <br/>别问我怎么学java，问就是《java核心技术》(卷一卷二)
             <br/>别问我怎么学go，问就是《go语言圣经》
             <br/>别问我怎么学js，问就是《javascript高级编程》
