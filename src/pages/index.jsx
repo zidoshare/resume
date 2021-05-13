@@ -165,8 +165,8 @@ const Index = () => (
             你好，<br /> 很高兴你能来访。
           </BigTitle>
           <Subtitle>
-            我是一个普通的码农，一个理想的完美主义者，喜欢开源，喜欢技术，偶尔喜欢折腾一些奇奇怪怪的东西。 <br/> 
-            喜欢linux平台，喜欢java/go/rust/js/c语言。伪全栈开发者。
+            我是一个普通的码农，一个理想的完美主义者，喜欢开源，喜欢技术，偶尔喜欢折腾一些奇奇怪怪的东西。 <br />
+  喜欢linux平台，喜欢java/go/rust/js/c语言。伪全栈开发者。
           </Subtitle>
         </Hero>
       </Content>
@@ -181,18 +181,18 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
+              title="coffee-spring"
+              link="https://github.com/zidoshare/coffee-spring"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            >
+              spring boot 2.x的restful启动器，节省一杯咖啡的时间，更多的约定，更快的开发
+            </ProjectCard>
+            <ProjectCard
               title="Elise"
               link="https://github.com/zidoshare/Elise"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
               一个简单的，高度可扩展的，并且支持分布式的爬虫框架。
-            </ProjectCard>
-            <ProjectCard
-              title="coffee-spring-boot-builder"
-              link="https://github.com/zidoshare/coffee-spring-boot-builder"
-              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-            >
-              spring boot 2.x的restful启动器，节省一杯咖啡的时间，更多的约定，更快的开发
             </ProjectCard>
             <ProjectCard
               title="curly-succotash"
@@ -264,14 +264,12 @@ const Index = () => (
           </AboutHero>
           <AboutDesc>
             理想的完美主义者，不追名不逐利。
-            <br/>深入的学习各种感兴趣的东西，例如spring/redis/jvm等等。
-            <br/>96年生，16年参加实习工作，17年毕业。
-            <br/>从不满足于当一个普通的程序猿。
-            <br/>别问我怎么学java，问就是《java核心技术》(卷一卷二)
-            <br/>别问我怎么学go，问就是《go语言圣经》
-            <br/>别问我怎么学js，问就是《javascript高级编程》
-            <br/>别问我怎么学c，问就是《c primer plus》
-            <br/>....
+            <br />深入的学习各种感兴趣的东西，例如spring/mysql/redis/jvm等等。
+            <br />96年生，16年参加实习工作，17年毕业。
+            <br />从不满足于当一个普通的程序猿。
+            <br />在新的一年，尝试更多广度上的东西，例如云原生、大数据等等。
+            <br />2021年...开始焦虑，不过始终充满希望。
+            <br />....
           </AboutDesc>
         </Inner>
       </Content>
